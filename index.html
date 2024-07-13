@@ -8,6 +8,8 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="style.css">
+    <!-- resvonsif.css -->
+    <link rel="stylesheet" href="resvonsif.css">
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- fontawesome -->
@@ -20,7 +22,7 @@
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container">
                 <!-- brand -->
-                <a href="index.html" class="navbar-brand">web developer</a>
+                <a href="index.html" class="navbar-brand">Portofolio Ku</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <i class="fas fa-bars"></i>
@@ -36,7 +38,7 @@
                             <a href="#about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#portofolio" class="nav-link">Portfolio</a>
+                            <a href="#portfolio" class="nav-link">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a href="#testimoni" class="nav-link">Testimoni</a>
@@ -52,21 +54,70 @@
         <!-- home section -->
         <section class="home" id="home">
             <div class="header-content d-flex align-items-center">
+                <div id="parallax">
+                    <div class="header-shape shape-one" data-depth="0.10">
+                        <img src="public/shape/shape-1.png" alt="Shape 1">
+                    </div>
+                    <div class="header-shape shape-two" data-depth="0.20">
+                        <img src="public/shape/shape-2.png" alt="Shape 2">
+                    </div>
+                    <div class="header-shape shape-three" data-depth="0.30">
+                        <img src="public/shape/shape-3.png" alt="Shape 3">
+                    </div>
+                    <div class="header-shape shape-four" data-depth="0.20">
+                        <img src="public/shape/shape-2.png" alt="Shape 4">
+                    </div>
+                    <div class="header-shape shape-five" data-depth="0.10">
+                        <img src="public/shape/shape-1.png" alt="Shape 5">
+                    </div>
+                    <div class="header-shape shape-six" data-depth="0.60">
+                        <img src="public/shape/shape-4.png" alt="Shape 6">
+                    </div>
+                    <div class="header-shape shape-seven" data-depth="0.15">
+                        <img src="public/shape/shape-5.png" alt="Shape 7">
+                    </div>
+                    <div class="header-shape shape-eight" data-depth="0.35">
+                        <img src="public/shape/shape-3.png" alt="Shape 8">
+                    </div>
+                    <div class="header-shape shape-nine" data-depth="0.20">
+                        <img src="public/shape/shape-6.png" alt="Shape 9">
+                    </div>
+                    <div class="header-shape shape-ten" data-depth="0.30">
+                        <img src="public/shape/shape-3.png" alt="Shape 10">
+                    </div>
+                </div>
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="home-text">
                                 <h4>HELLO, I'M</h4>
                                 <h1>GUNAWAN ROHADI</h1>
-                                <P>Saya adalah seorang mahasiswa Universitas Hamzanwadi & Web developer</P>
+                                <p>Saya adalah seorang mahasiswa Universitas Hamzanwadi & Web developer</p>
                                 <div class="home-btn">
-                                    <a href="#" class="btn-1">view my work</a>
+                                    <a href="#" class="btn-1">View My Work</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="home-img">
-                                <img src="public/profile-pic.png" alt="">
+                                <img src="public/profile-pic.png" alt="Profile Picture">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- header social media -->
+                <div class="header-social">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="header-social-icon">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -75,10 +126,13 @@
         </section>
     </header>
 
-    <!-- link javascripsts -->
+    <!-- link javascripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="main.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- parallax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 </body>
 
 </html>
